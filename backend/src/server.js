@@ -24,8 +24,7 @@ app.use((req, res, next) => {
 // 2. Restricted CORS Configuration (Prevents unauthorized cross-origin requests)
 const allowedOrigins = [
   CLIENT_URL,
-  "http://localhost:5173",
-  "http://127.0.0.1:5173",
+  "https://fraud-radar-orpin.vercel.app/",
 ];
 
 app.use(
